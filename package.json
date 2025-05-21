@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21",
+    "playwright-qase-reporter": "^2.1.2"
+  },
+  "scripts": {
+    "test": "QASE_MODE=testops npx playwright test"
+  }
+}
