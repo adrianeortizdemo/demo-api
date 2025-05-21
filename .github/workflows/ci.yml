@@ -20,7 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
+      - name: npx playwright install
+        run: npx playwright install
       - name: Run Playwright tests and publish to Qase
         env:
           QASE_TESTOPS_API_TOKEN: ${{ secrets.QASE_API_TOKEN }}
