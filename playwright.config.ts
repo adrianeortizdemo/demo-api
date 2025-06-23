@@ -29,7 +29,7 @@ export default defineConfig({
         /* You can define the reporter options here, or in a separate file. */
         testops: {
 
-          project: 'DEMOUI',
+          project: 'DEMO',
           run: {
             complete: true,
           },
